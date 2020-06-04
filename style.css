@@ -4,3 +4,11 @@ html {
 h1 {
     text-align: center;
 }
+#time-left {
+    text-align: right;
+}
+
+button.button-style {
+  display: block;
+  margin-bottom: 10px;
+}

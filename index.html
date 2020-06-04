@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <div class="pure-g">
-            <div class="pure-u-1"><h1>Coding Quiz</h1></div>
-        </div>
-        <div class="pure-g">
-            <div class="pure-u-1-4"><p>Time: <span id="timer"></span></p></div>
-        </div>
-        <div class="pure-g">
-            <div class="pure-u-1">
-                <button class="pure-button pure-button-primary" id="start">Start</button>
+        <div class="container">
+            <div class="row">
+                <div class="col s12"><h1>Coding Quiz</h1></div>
+            </div>
+            <div class="row">
+                <div class="col s12"><p id="time-left">Time: <span id="timer"></span></p></div>
+            </div>
+            <div class="row">
+                <div class="col s3">Main Content</div>
+                <div class="col s6" id="quiz-main">Click Start to Begin!</div>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button class="waves-effect waves-light btn black" id="start">Start</button>
+                </div>
             </div>
         </div>
     </main>
     
 
     <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
