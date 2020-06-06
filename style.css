@@ -1,8 +1,10 @@
 html {
   font-family: Helvetica, Arial, sans-serif;
 }
-h1 {
+h3 {
     text-align: center;
+    font-weight: 700;
+    font-size: 3em;
 }
 #time-left {
     text-align: right;
@@ -11,4 +13,47 @@ h1 {
 button.button-style {
   display: block;
   margin-bottom: 10px;
+}
+
+h6 {
+  font-weight: 700;
+}
+hr { 
+  border-top: 1px solid grey;
+}
+p {
+  font-size: 2em;
+}
+
+.quiz-buttons {
+  word-wrap: break-word;
+  height: auto;
+  width: auto;
+}
+
+@media (max-width: 690px) {
+  .quiz-buttons {
+    font-size: 1rem;
+  }h3 {
+    font-size: 2.5em;
+  }
+  p#time-left {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .quiz-buttons {
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+p#time-left {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 }

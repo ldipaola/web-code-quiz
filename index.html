@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
+    <title>MCU Quiz</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,13 +11,16 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col s12"><h1>Coding Quiz</h1></div>
+                <div class="col s12"><h3>Marvel Cinematic Universe Quiz</h3></div>
             </div>
             <div class="row">
                 <div class="col s12"><p id="time-left">Time: <span id="timer"></span></p></div>
             </div>
             <div class="row">
-                <div class="col s3">Main Content</div>
+                <div class="col s3">
+                    <h6>Scores</h6>
+                    <ul id="score-list"></ul>
+                </div>
                 <div class="col s6" id="quiz-main">Click Start to Begin!</div>
             </div>
             <div class="row">
