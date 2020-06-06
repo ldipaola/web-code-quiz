@@ -229,7 +229,7 @@ quizEl.addEventListener("click", function(e){
     if(buttonValue === questions[questionIndex].answer){
         e.target.classList.remove("grey", "darken-4");
         e.target.classList.add("green");
-        score += 10;
+        score += 1;
         timeLeft += 10;
         if(questionIndex < questions.length -1 && timeLeft > 0) {
             questionIndex++;
