@@ -1,4 +1,4 @@
 # web-code-quiz
 
 
-![password generator demo](./project.png)
+![password generator demo](project.png)
